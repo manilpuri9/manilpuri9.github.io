@@ -1,8 +1,458 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-  <title>manilpuri.me</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Metas Page details-->
+<title>Folio - Personal Portfolio Template</title>
+<meta name="description" content="Manil Puri Resume">
+<meta name="author" content="Manil Puri">
+<!-- Mobile Specific Metas-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--main style-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+<!--google font style-->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+<!--font-family: 'Metrophobic', serif;-->
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic' rel='stylesheet' type='text/css'> 
+<!--font-family: 'Open Sans', sans-serif;-->
+<!-- font icon css style-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-<body>
-  hello prajwal
+<body onLoad="load()" onUnload="GUnload()">
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status"></div>
+</div>
+<!--wrapper start-->
+<div class="wrapper noGap" id="wrapper">
+
+<!--Header start -->
+<header>
+  	<!--menu start-->
+    <div class="menu">
+    <a href="#" class="nav-icon" id="nav-show"><i class="fa fa-bars"></i></a>
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+              	<!--<div class="logo">logo</div> -->
+                <div class="navArea"><a href="#" class="closeMenu"><i class="fa fa-times"></i></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                     <!-- <a class="navbar-brand" href="#">Menu</a>  --></div>
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                        <li class="menuItem"><a href="#aboutus">About Me</a></li>
+                        <li class="menuItem"><a href="#skillset">Skills</a></li>
+                        <li class="menuItem"><a href="#experience">Experience</a></li>
+                        <li class="menuItem"><a href="#education">Education</a></li>
+                        <li class="menuItem"><a href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+      </div>
+    </div>
+    <!--menu end--> 
+    <!--banner start-->
+    <div class="banner row" id="banner">
+    <div class="bannerText">
+        <h1>I'm Manil Puri</h1>
+        <h3>Almost An Engineer </h3>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%"> 
+        <!--background slide show start-->
+        <div class="slide"> 
+          <img src="images/header-image/image03.JPG" alt="image01"> </div>
+        <div class="slide"> 
+          <img src="images/header-image/image02.JPG" alt="image01"> </div>
+          <div class="slide"> 
+              <img src="images/header-image/image01.JPG" alt="image01"> </div>
+        <!--background slide show end--> 
+      </div>
+    </div>
+    <!--banner end--> 
+    
+  </header>
+  <!--Header end -->
+  
+ <!--about us start-->
+  <section class="aboutus" id="aboutus">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12">
+      	<div class="heading">
+        <h2>About me</h2>
+        <h3>A small introduction about my self</h3>        
+      </div>
+      </div> 
+       </div> 
+      <div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media"><img src="images/manil-img.JPG" alt=""></div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
+        	<h5>Manil Puri</h5>
+            <h4>Computer Science &amp; Engineering(CSE) Student from Chitkara University<h4>
+            <p>I am a 3rd year student at Chitkara University Himachal Pradesh. I am originally from Nepal. I came to India in search of better education and career opertunities.</p>
+            <p>Currently I am seeking for the orginization to start my career where I can learn and apply my learnings helping the growth of the orginization as well as my personal growth and experiance.</p>
+        </div>
+      	
+      </div>     
+    </div>    
+  </section>
+  <!--about us end--> 
+  <!--Skillset start -->
+  <section id="skillset" class="skillset">
+  	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+               <div class="heading">
+                <h2>Skills &amp; Expertice</h2>
+                <h3>I can say i’m quite good at</h3>        
+              </div>
+            </div>
+            <div class="col-md-12">
+            	<div class="col-md-6 col-sm-12 media">
+                	<p> I believe i have good understanding of programming concepts. I am familiar with 
+                      with these programming language mentioned. I learnt and applied these technologies in the projects bellow.
+                    I can adapt with new languages and technologies pretty soon if need be.
+                    </p>
+                </div>
+            	<div class="col-md-6 col-sm-12">                
+                <div class="skillbar clearfix " data-percent="89%">
+                    <div class="skillbar-title"><span>C / C++</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="86%">
+                    <div class="skillbar-title"><span>Python</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="85%">
+                    <div class="skillbar-title"><span>HTML / CSS</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="58%">
+                    <div class="skillbar-title"><span>JAVA</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="85%">
+                    <div class="skillbar-title"><span>Database</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->   
+
+                <div class="skillbar clearfix " data-percent="85%">
+                    <div class="skillbar-title"><span>Git</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->   
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Skillset end -->
+  <!--Work Experties start -->
+  <section id="experience" class="myexperties">
+  	<div class="container">
+        <div class="heading">
+        <h2>Projects and Trainings</h2>      
+      </div>
+        
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	April 24-<br>25, 2018
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>WorkHub</h4>
+                <h5>Built at <a style="color:black;"href= "https://www.topcoder.com/challenges/30064653/?type=develop">Topcoder University Hackathon Series - CU</a></h5>
+                <h4>Web Application Using Python(Flask) and MySQL as Database</h4>
+                <p>Our web app is intended to smoothen the workflow between the users and 
+                  those who are available to do that work. As the crowd increases, the working environment becomes 
+                  increasingly messy. It is hard to find the people who are available for the particular work that we 
+                  want to get done. This basically hinders the communication between workers  and users. This is where our app comes into play. 
+                  It fundamentally acts as the intermediator between these two parties. </p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	April 14-<br>15, 2018
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Government Feedback Platform</h4>
+                <h5>Built at <a style="color:black;"href= "http://www.octahacks.tech/">OctaHacks, Chitkara University, Punjab</a></h5>
+                <h4>Web Application Using Python(Flask) and MySQL as Database</h4>
+                <p>Our web app provides a platform for people to upload their problems related to infrastructures and services of government. If there are similar problems put forward by other users, they can upvoat it and make them trending one.
+                  In this platform the can discuss about the solution locally or put some mass pressure to government so that the problem is fixed. Our platform gives an individual a power to speak and to be heard and helps solve problems by putting it in the light. </p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                  18th Dec 2017 <br> 17th March 2018
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Precision Farming</h4>
+                <h5>At Department of Electrical Engineering,
+                  National Chung Cheng University, Taiwan <br> 
+                  </h5>
+                <p>The project was to design a chaincode to store the live data of farm and farming activity into a blockchain and to trigger the farming activities( irrigation, adding fertilizer, adding pesticide, harvesting) 
+                    <br>Technologies Used: Hyperledger Fabric for designing blockchain, Docker to create and deploy the blockchain network.</p>
+            </div>
+        </div>
+        <div class="row media">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="expertiesico">
+                    Integrated Project 1(Semester 2):<br> Integrated Project 2(Semester 4):
+                  </div>
+              </div>
+            <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <h4>Intigrated Projects</h4>
+                  <h5> Smart Blind Stick</h5>
+                      <p>A blind stick that can detect any object infront of the stick using Arduino Micro-controller and Ultrasonic Sensor to detect the obstacles.</p>
+                      <h5>Message Broadcasting App</h5>
+                          <p>A desktop application which can broadcast a message. Built using Java Socket Programming</p>    
+            </div>
+          </div>
+    </div>
+  </section>
+  <!--Work Experties end -->
+  <!--Education & diploma start -->
+  <section id="education" class="educationdiploma">
+  	<div class="container">
+        <div class="heading">
+        <h2>Education</h2>      
+      </div>
+        
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	2015 <br>2019
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Bachelor in Computer Science and Engineering</h4>
+                <h5>Chitkara University</h5>
+                <h5>Baddi, Himachal Pradesh, India</h5>
+                <p>I am currently persuing my bachelors degree here in Himachal Pradesh branch of Chitkara Unicersity. </p>
+            </div>
+        </div>
+
+        <div class="row media">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="expertiesico">
+                  December 2017,<br>March 2018
+                  </div>
+              </div>
+            <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <h4>Research Internship </h4>
+                  <h5> National Chung Cheng University, Taiwan </h5>
+                  <p>I researched under Pao-Ann Hsiung, Ph.D, Prof. in the application of blockchain in smart farming.</p>
+              </div>
+          </div>
+
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	2013<br>2015
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>+2 (HSEB Beard)</h4>
+                <h5>The Times International College</h5>
+                <h5>Dillibazzar, Kathmandu, Nepal</h5>
+                <p>I completed my +2 in Science major in my hometown, Kathmandu.</p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	2013
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>10th Grade</h4>
+                <h5>Arunima Higher Secendory School</h5>
+                <h5>Boudha, Kathmandu, Nepal</h5>
+                <p>I completed my secondary education in this school.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Education & diploma end -->
+  
+  <section class="contactDetails">
+    <div class="container"> 
+    <div class="heading">
+        <h2>Drop a email</h2>
+        <h3>Please feel free if you would like to have a chat.</h3>       
+      </div>
+      <!--contact form start-->
+      <div class="row media">      	 
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 conForm text-center">
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your name" >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-8 col-lg-8 noMarr" placeholder="Your email" >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your message"></textarea>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="submit" id="submit" name="send" class="submitBnt" value="Send message"></div>
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+      </div>
+      <!--contact form end--> 
+    </div>
+  </section>  
+  <!--contact end--> 
+
+   <!--contact start-->
+   <section class="contact" id="contact">
+      <div class="container">
+        <div class="heading">
+          <h2>Get In Touch</h2>
+          <h3>Feel free to follow me at:</h3>       
+        </div>
+      </div>
+    </section>
+  
+  <!--footer start-->
+  <section class="footer" id="footer">
+    <div class="container">
+      <ul>
+        <li><a href="https://www.facebook.com/manilpurimanil"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/manil_puri_manil/"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/manilpuri/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://github.com/manilpuri9/"><i class="fa fa-github fa-2x"></i></a></li>
+        
+      </ul>
+    </div>
+    <p class="text-center"><a href="#wrapper" class="gototop"><i class="fa fa-chevron-up fa-2"></i></a></p>
+  </section>
+  <!--footer end-->     
+  </div>
+<!--wrapper end--> 
+
+<!--modernizr js--> 
+<script type="text/javascript" src="js/modernizr.custom.26633.js"></script> 
+<!--jquary min js--> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!--for placeholder jquery--> 
+<script type="text/javascript" src="js/jquery.placeholder.js"></script> 
+
+<!--for header jquery--> 
+<script type="text/javascript" src="js/stickUp.js"></script> 
+<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'aboutus',
+		  2: 'skillset',
+		  3: 'experience',
+		  4: 'education',
+		  5: 'ourwork',
+		  6: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	});
+	
+
+});
+</script>
+<script>
+	$('#banner').superslides({
+	  animation: 'fade',
+	  play: 5000
+	});
+</script>  
+
+<!--for portfolio jquery--> 
+<script src="js/jquery.isotope.js" type="text/javascript"></script> 
+<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+<link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> 
+<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script> 
+
+<!--contact form js--> 
+<script type="text/javascript" src="js/jquery.contact.js"></script> 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+					scrollwheel: false,
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+				
+				
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    map: map,
+                    title: 'Hello!'
+                });
+            }
+        </script>
+
+<script src="js/jquery.easing.js"></script> 
+<script src="js/jquery.mousewheel.js"></script> 
+<script defer src="js/slideroption.js"></script> 
+
+<!--for theme custom jquery--> 
+<script src="js/custom.js"></script>
+
 </body>
 </html>
